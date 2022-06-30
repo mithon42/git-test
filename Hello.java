@@ -6,12 +6,11 @@ public class Hello {
     texting("Texting Message");
   }
 
-  public static void greeting(String name) {
-    System.out.println("Welcome " + name);
+  public static void greeting(String names) {
+    System.out.println("Welcome " + names);
   }
   
   public static void texting(String message) {
     System.out.println("Welcome " + message);
   }
-
 }
