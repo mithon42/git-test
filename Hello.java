@@ -4,6 +4,7 @@ public class Hello {
 
     greeting("Mithon Islam");
     texting("Texting Message");
+    helloWorld("Hello World...");
   }
 
   public static void greeting(String names) {
@@ -12,5 +13,8 @@ public class Hello {
   
   public static void texting(String message) {
     System.out.println("Welcome " + message);
+  }
+  public static void helloWorld(String newMessage){
+    System.out.println(newMessage);
   }
 }
